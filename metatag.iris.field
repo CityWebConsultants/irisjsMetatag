@@ -1,0 +1,9 @@
+{
+  "name": "Metatag",
+  "type": {
+    "title": "String",
+    "description": "String",
+    "abstract": "String",
+    "keywords": "String"
+  }
+}
