@@ -5,6 +5,7 @@ A simple module that provides a new field type 'Metatag' that can be added to an
 * title
 * description
 * keywords
+
 fields. But as with any Iris field, these can be extended to add any other metatags you wish.
 
 When the entity is being rendered, these fields are added to the HEAD section of the page.
