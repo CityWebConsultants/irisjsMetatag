@@ -70,7 +70,7 @@ iris.modules.irisjsMetatag.registerHook("hook_frontend_template", 0, function (t
 
     var entity = thisHook.context.vars.current;
 
-    var schema = iris.dbSchemaConfig[entity.entityType];
+    var schema = iris.entityTypes[entity.entityType];
 
     Object.keys(schema.fields).forEach(function(field) {
 
